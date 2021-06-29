@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Poppins:wght@200&display=swap');
+body {
+    background-color: rgb(54, 56, 46)
+}
+
+
+/* Form CSS */
+
+.form-container {
+    display: -webkit-flex;
+    border: 1px solid rgb(151, 210, 251);
+    ;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    width: 35rem;
+    -moz-appearance: none;
+    padding: 2px;
+}
+
+input {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lateef', cursive;
+    font-family: 'Poppins', sans-serif;
+    flex-grow: 2;
+    width: 15rem;
+    border: none;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .form-container {
+        width: 20rem;
+        border: 1px solid rgb(137, 143, 113);
+    }
+}
